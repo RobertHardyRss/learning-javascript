@@ -1,2 +1,4 @@
-# learning-javascript
-Learning JavaScript
+install jest globally
+`npm install -g jest`
+
+basic variables

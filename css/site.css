@@ -1,0 +1,16 @@
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+canvas.border {
+	border: solid 1px black;
+}
+
+.hidden-asset {
+	display: none;
+}
+
+a.back-link {
+	float: right;
+}

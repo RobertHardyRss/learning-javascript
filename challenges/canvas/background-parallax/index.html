@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Background Scrolling Image</title>
+		<link rel="stylesheet" href="../../../css/site.css" />
+	</head>
+	<body>
+		<a href="../../index.html" class="back-link">Back to Challenges</a>
+		<h1>Background Parallax Scrolling Challenge</h1>
+		<p>
+			A parallax scrolling effect gives the perception of depth by making
+			things closer to the viewer scroll at a faster rate than things that
+			are farther away from the viewer. Can you simulate depth by making
+			these four different layers of clouds scroll at different rates?
+		</p>
+		<img
+			src="../../../assets/images/parallax/clouds-near.png"
+			id="clouds-near"
+			class="hidden-asset" />
+		<img
+			src="../../../assets/images/parallax/clouds-close.png"
+			id="clouds-close"
+			class="hidden-asset" />
+		<img
+			src="../../../assets/images/parallax/clouds-medium.png"
+			id="clouds-medium"
+			class="hidden-asset" />
+		<img
+			src="../../../assets/images/parallax/clouds-far.png"
+			id="clouds-far"
+			class="hidden-asset" />
+		<canvas id="canvas" class="border" height="600" width="800"></canvas>
+		<script src="app.js" type="module" defer></script>
+	</body>
+</html>

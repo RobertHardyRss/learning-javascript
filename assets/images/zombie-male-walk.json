@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "Walk (1).png",
+	"frame": {"x":0,"y":0,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (2).png",
+	"frame": {"x":358,"y":0,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (3).png",
+	"frame": {"x":716,"y":0,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (4).png",
+	"frame": {"x":1074,"y":0,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (5).png",
+	"frame": {"x":1432,"y":0,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (6).png",
+	"frame": {"x":0,"y":432,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (7).png",
+	"frame": {"x":358,"y":432,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (8).png",
+	"frame": {"x":716,"y":432,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (9).png",
+	"frame": {"x":1074,"y":432,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+},
+{
+	"filename": "Walk (10).png",
+	"frame": {"x":1432,"y":432,"w":358,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":432},
+	"sourceSize": {"w":358,"h":432}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "zombie-male-walk.png",
+	"format": "RGBA8888",
+	"size": {"w":1790,"h":864},
+	"scale": "0.83333",
+	"smartupdate": "$TexturePacker:SmartUpdate:8422e854def8851a06d8465d5d99e7f3:3dbbb634f7a63c0672e3dc3efd57b6e1:76c10d00cc8baf66a4d59d43ff81c664$"
+}
+}

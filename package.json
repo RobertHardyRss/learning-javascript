@@ -1,0 +1,16 @@
+{
+	"name": "learning-javascript",
+	"version": "1.0.0",
+	"description": "Excercises and challenges for for learning JavaScript.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --noStackTrace",
+		"test-watch": "jest --noStackTrace --watchAll"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.2.0"
+	}
+}

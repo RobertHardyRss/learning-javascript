@@ -1,0 +1,10 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.guides.bracketPairs": true,
+	"editor.linkedEditing": true,
+	"prettier.bracketSameLine": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true
+}
