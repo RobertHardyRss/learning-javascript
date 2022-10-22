@@ -1,4 +1,4 @@
-/* EXERCISE 1: Learning about Variables
+/* EXERCISE 1.01: Learning about Variables
 
 	In this exercise, you will demonstrate your ability to declare variables
 	of different "primitive" data types, like numbers, strings, booleans and

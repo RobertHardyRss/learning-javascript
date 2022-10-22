@@ -1,5 +1,5 @@
 /*
-EXERCISE 1: Learning about Arrays & Objects
+EXERCISE 1.02: Learning about Arrays & Objects
 
 	In this exercise, you will demonstrate your ability to declare array 
 	and object variables.  Arrays are actually a type of object, but you can
@@ -29,10 +29,14 @@ TASK #1
 	that are string values in the array that are names of fruits.
 */
 
+// your code goes here
+
 /* 
 TASK #2
 	Create an empty array variable named mixedData.
 */
+
+// your code goes here
 
 /*
 TASK #3
@@ -48,6 +52,8 @@ TASK #3
 	2: Push any string value
 	3: Push a boolean value
 */
+
+// your code goes here
 
 /* ****************************************************************************
    ***           DO NOT MODIFY ANYTHING AFTER THIS SECTION                  ***

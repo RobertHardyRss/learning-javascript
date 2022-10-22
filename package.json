@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Excercises and challenges for for learning JavaScript.",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "jest --noStackTrace",
 		"test-watch": "jest --noStackTrace --watchAll"

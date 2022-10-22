@@ -1,3 +1,4 @@
 {
-	"rootDir": "exercises"
+	"rootDir": "exercises",
+	"transform": {}
 }
