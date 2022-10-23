@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Display an Image on the Canvas</title>
+		<link rel="stylesheet" href="../../../css/site.css" />
+		<link rel="stylesheet" href="../../../css/personal.css" />
+	</head>
+	<body>
+		<a href="../../index.html" class="back-link">Back to Challenges</a>
+		<h1>Display an Image on the Canvas</h1>
+		<p>
+			Knowing how to to load an image on the canvas in code is an
+			important thing to learn. This challenge will help you understand
+			the fundamentals. For this challenge we will be working with the
+			"smile_big.png" image in the assets/images folder.
+		</p>
+		<p>
+			The browser needs to know how to find this image, so we need to tell
+			it the "path" to the image file itself. There are two types of
+			paths,
+			<a href="https://www.w3schools.com/html/html_filepaths.asp">
+				relative and absolute</a
+			>. A relative path, which is the recommended methodology, tells the
+			browser how to get to a file <em>relative</em> to, or from, the page
+			you are currently on (this one!).
+		</p>
+		<p>
+			Relative to this page, you would tell the browser to go down three
+			directories (you can use dot dot slash to do this, so down three
+			would look like this: <code>../../../</code>), and then go into the
+			assets directory, and then into the images directory (this would now
+			make the path <code>../../../assets/images</code>). Once in the
+			correct folder, you would then add on the file name to make the full
+			relative path: <code>../../../assets/images/smile_big.png</code>.
+			This will be the value that you place in the
+			<code>src</code> attribute of your <code>img</code> tag.
+		</p>
+
+		<p>
+			Add an img tag to the HTML, just below this paragraph tag (you will
+			need to edit this HTML file in VS Code to do so). You can learn
+			about <code>img</code> tags here:
+			<a href="https://www.w3schools.com/html/html_images.asp">
+				HTML Images
+			</a>
+		</p>
+
+		<!-- Add your img tag here -->
+
+		<p>
+			Make sure you give your image a unique ID attribute just like the
+			one in the canvas tag below. Something like
+			<code>id="smile-image"</code> should work just fine, as there are no
+			other elements on this page with that ID.
+		</p>
+		<p>
+			You can prevent your image from displaying on the page by adding a
+			style attribute directly to it: <code>style="display: none;"</code>,
+			or by adding the "hidden-asset" style class defined in our site.css
+			file which will do the same: <code>class="hidden-asset"</code>.
+		</p>
+		<p>
+			Once you have your image element defined, it is time to work in the
+			JavaScript file in this folder (app.js).
+		</p>
+
+		<canvas id="canvas" class="border" height="600" width="800"></canvas>
+		<script src="app.js" type="module" defer></script>
+	</body>
+</html>

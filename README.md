@@ -1,5 +1,17 @@
 # Learning JavaScript
 
+## TL;DR
+
+---
+
+-   Install node.js [node.js website](https://nodejs.org/en/)
+-   From VS Code Terminal, run `npm install`
+-   Read the exercise comments
+-   Look for hints in the challenges
+-   Check your code into GitHub regularly
+
+---
+
 This project requires node.js to work properly. You can see if node is already
 installed on your machine by running the following command in a terminal:
 

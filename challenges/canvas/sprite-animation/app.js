@@ -1,7 +1,7 @@
 /** @type {HTMLCanvasElement} */
 const canvas = document.getElementById("canvas");
 /** @type {CanvasRenderingContext2D} */
-const ctx = canvas.getContext("2d");
+const context = canvas.getContext("2d");
 /** @type {HTMLImageElement} */
 const zombieWalk = document.getElementById("zombie-walk");
 //@ts-check
@@ -32,13 +32,13 @@ let lastTimestamp = 0;
 
 function animate(timestamp) {
 	// clear the canvas on each animation
-	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	context.clearRect(0, 0, canvas.width, canvas.height);
 
 	const timeElapsed = timestamp - lastTimestamp;
 	lastTimestamp = timestamp;
 
 	//HINT: Your code should change dx and dy
-	ctx.drawImage(
+	context.drawImage(
 		zombieWalk,
 		dx,
 		dy,
