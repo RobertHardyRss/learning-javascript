@@ -12,6 +12,7 @@ CHALLENGE: Find the longest word in an array of words
 */
 
 //@ts-check
+export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
 const output = document.getElementById("output-container");
 

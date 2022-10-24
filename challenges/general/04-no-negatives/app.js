@@ -18,6 +18,7 @@ CHALLENGE: Create a function that filters out negative numbers
  */
 
 //@ts-check
+export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
 const output = document.getElementById("output-container");
 

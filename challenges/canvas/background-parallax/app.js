@@ -1,16 +1,17 @@
-/** @type {HTMLCanvasElement} */
-const canvas = document.getElementById("canvas");
-/** @type {CanvasRenderingContext2D} */
-const context = canvas.getContext("2d");
-/** @type {HTMLImageElement} */
-const cloudsNear = document.getElementById("clouds-near");
-/** @type {HTMLImageElement} */
-const cloudsClose = document.getElementById("clouds-close");
-/** @type {HTMLImageElement} */
-const cloudsMedium = document.getElementById("clouds-medium");
-/** @type {HTMLImageElement} */
-const cloudsFar = document.getElementById("clouds-far");
 //@ts-check
+export {};
+/** @type {HTMLCanvasElement} */ //@ts-ignore
+const canvas = document.getElementById("canvas");
+/** @type {CanvasRenderingContext2D} */ //@ts-ignore
+const context = canvas.getContext("2d");
+/** @type {HTMLImageElement} */ //@ts-ignore
+const cloudsNear = document.getElementById("clouds-near");
+/** @type {HTMLImageElement} */ //@ts-ignore
+const cloudsClose = document.getElementById("clouds-close");
+/** @type {HTMLImageElement} */ //@ts-ignore
+const cloudsMedium = document.getElementById("clouds-medium");
+/** @type {HTMLImageElement} */ //@ts-ignore
+const cloudsFar = document.getElementById("clouds-far");
 
 canvas.width = 800;
 canvas.height = 600;

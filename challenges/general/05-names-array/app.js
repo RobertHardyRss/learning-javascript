@@ -18,6 +18,7 @@ CHALLENGE: Create an array of names from an array of objects
  */
 
 //@ts-check
+export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
 const output = document.getElementById("output-container");
 

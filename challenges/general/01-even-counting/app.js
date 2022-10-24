@@ -14,6 +14,7 @@ CHALLENGE: Output all even numbers from 0 – 10
  */
 
 //@ts-check
+export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
 const output = document.getElementById("output-container");
 

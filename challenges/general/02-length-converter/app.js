@@ -18,6 +18,7 @@ CHALLENGE: Create a length converter function
  */
 
 //@ts-check
+export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
 const output = document.getElementById("output-container");
 

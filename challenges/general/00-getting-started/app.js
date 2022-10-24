@@ -2,6 +2,10 @@
 // any errors that may be in your code.
 //@ts-check
 
+// Adding a default export will allow us to reuse variable names across files
+// so you can leave this alone if you see it.
+export {};
+
 // Most challenges will start with grabbing the output-content element from
 // the HTML page and assigning it to a variable we can use easily.  We will
 // also tell VS Code what type of element output is with the special @type

@@ -1,8 +1,11 @@
+//@ts-check
+export {};
+/** @type {HTMLCanvasElement} *///@ts-ignore
 const canvas = document.getElementById("canvas");
 canvas.width = 800;
 canvas.height = 600;
 
-/** @type {CanvasRenderingContext2D} */
+/** @type {CanvasRenderingContext2D} *///@ts-ignore
 const context = canvas.getContext("2d");
 
 /* 

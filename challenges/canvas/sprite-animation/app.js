@@ -1,10 +1,11 @@
-/** @type {HTMLCanvasElement} */
-const canvas = document.getElementById("canvas");
-/** @type {CanvasRenderingContext2D} */
-const context = canvas.getContext("2d");
-/** @type {HTMLImageElement} */
-const zombieWalk = document.getElementById("zombie-walk");
 //@ts-check
+export {};
+/** @type {HTMLCanvasElement} *///@ts-ignore
+const canvas = document.getElementById("canvas");
+/** @type {CanvasRenderingContext2D} *///@ts-ignore
+const context = canvas.getContext("2d");
+/** @type {HTMLImageElement} *///@ts-ignore
+const zombieWalk = document.getElementById("zombie-walk");
 
 canvas.width = 800;
 canvas.height = 600;
