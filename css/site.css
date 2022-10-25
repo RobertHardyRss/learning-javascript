@@ -8,6 +8,14 @@ body {
 	margin: 3em;
 }
 
+h1,
+h2,
+h3 {
+	font-family: monospace;
+	font-weight: bolder;
+	color: indigo;
+}
+
 canvas.border {
 	border: solid 1px black;
 }
