@@ -1,9 +1,47 @@
+//@ts-check
+/** @type {HTMLCanvasElement} */ //@ts-ignore
 let canvas = document.getElementById("canvas-1");
 canvas.width = 100;
 canvas.height = 100;
 
-/** @type {CanvasRenderingContext2D} */
+/** @type {CanvasRenderingContext2D} */ //@ts-ignore
 let context = canvas.getContext("2d");
+
+
+
+class ClickBox {
+	constructor(x, y, size, colors) {
+		this.x = x;
+		this.y = y;
+		this.size = size;
+
+		this.isClicked = false;
+		this.refreshRate = 500;
+		this.lastRefresh = 0;
+		this.colors = colors;
+		this.color = "red";
+
+		this.setColor();
+	}
+
+	setColor() {
+		let colorIndex = Math.floor(Math.random() * this.colors.length);
+		this.color = this.colors[colorIndex];
+	}
+
+	update(timeElapsed) {
+		this.lastRefresh += timeElapsed;
+
+		if(this.lastRefresh < this.refreshRate) return;
+
+
+		if(this.lastRefresh >= this.refreshRate) {
+			this.setColor();
+		}
+	}
+
+	draw() {}
+}
 
 let squares = [];
 let gridSize = 4;
