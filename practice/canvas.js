@@ -9,9 +9,9 @@ let context = canvas.getContext("2d");
 
 class ClickBox {
 	constructor(x, y, size, colors) {
-		this.x = x;
-		this.y = y;
-		this.size = size;
+		this.x = x + 2;
+		this.y = y + 2;
+		this.size = size - 4;
 
 		this.isClicked = false;
 		this.refreshRate = 500;
@@ -53,8 +53,19 @@ class ClickBox {
 		// let square = new Path2D();
 		// square.rect(x, y, size, size);
 
+		context.beginPath();
+		context.rect(this.x, this.y, this.size, this.size);
 		context.fillStyle = this.color;
-		context.fillRect(this.x, this.y, this.size, this.size);
+		context.fill();
+
+		if (this.isClicked) {
+			context.strokeStyle = "black";
+			context.stroke();
+		}
+
+		context.closePath();
+
+		//context.fillRect(this.x, this.y, this.size, this.size);
 	}
 }
 
@@ -62,6 +73,8 @@ let squares = [];
 let gridSize = 4;
 let size = canvas.width / gridSize;
 let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+let winningColor = "";
 
 for (let row = 0; row < gridSize; row++) {
 	for (let col = 0; col < gridSize; col++) {
@@ -78,11 +91,15 @@ canvas.addEventListener("click", (e) => {
 	squares.forEach((b) => {
 		if (b.amIClicked(e.offsetX, e.offsetY)) {
 			b.isClicked = true;
+			if (winningColor == "") {
+				winningColor = b.color;
+			}
 		}
 	});
 });
 
 let currentTime = 0;
+let score = 0;
 
 function drawLoop(timestamp) {
 	let elapsedTime = timestamp - currentTime;
@@ -93,7 +110,13 @@ function drawLoop(timestamp) {
 		b.draw();
 	});
 
-	requestAnimationFrame(drawLoop);
+	let isGameOver = squares.filter((b) => b.isClicked == false).length == 0;
+
+	if (isGameOver) {
+		score = squares.filter((b) => b.color == winningColor).length;
+	} else {
+		requestAnimationFrame(drawLoop);
+	}
 }
 
 requestAnimationFrame(drawLoop);
