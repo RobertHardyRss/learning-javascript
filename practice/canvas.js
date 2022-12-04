@@ -1,4 +1,5 @@
 //@ts-check
+export {};
 /** @type {HTMLCanvasElement} */ //@ts-ignore
 let canvas = document.getElementById("canvas-1");
 canvas.width = 100;

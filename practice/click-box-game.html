@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Click Box!</title>
+		<link rel="stylesheet" href="../css/site.css" />
+		<link rel="stylesheet" href="../css/personal.css" />
+	</head>
+	<body>
+		<a href="index.html" class="back-link">Back to Practice</a>
+
+		<h1>Click Box Game</h1>
+		<div
+			style="
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			">
+			<div>
+				<label for="grid-size">Grid Size</label>
+				<select name="grid-size" id="grid-size">
+					<option value="2">2 x 2</option>
+					<option value="4" selected="selected">4 x 4</option>
+					<option value="6">6 x 6</option>
+					<option value="8">8 x 8</option>
+				</select>
+			</div>
+			<div>
+				<label for="color-count">Number of Colors</label>
+				<select name="color-count" id="color-count">
+					<option value="3">3</option>
+					<option value="7" selected="selected">7</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+			<div>
+				<label for="difficulty">Difficulty</label>
+				<select name="difficulty" id="difficulty">
+					<option value="2000">Easy</option>
+					<option value="1000" selected="selected">Normal</option>
+					<option value="750">Hard</option>
+					<option value="500">Even Harder</option>
+					<option value="250">Insanity</option>
+				</select>
+			</div>
+			<div>
+				<button type="button" id="click-box-start">New Game</button>
+			</div>
+		</div>
+
+		<canvas
+			id="click-box-canvas"
+			height="400"
+			width="400"
+			style="border: solid 1px silver"></canvas>
+
+		<p>
+			Last Score: <code id="click-box-score">0</code> completed in
+			<code id="click-box-time">0</code> seconds
+		</p>
+
+		<script src="click-box.js" type="module"></script>
+	</body>
+</html>
