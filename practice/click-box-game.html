@@ -7,6 +7,7 @@
 		<title>Click Box!</title>
 		<link rel="stylesheet" href="../css/site.css" />
 		<link rel="stylesheet" href="../css/personal.css" />
+		<link rel="preload" href="sounds/hit-click.ogg" type="ogg" />
 	</head>
 	<body>
 		<a href="index.html" class="back-link">Back to Practice</a>
@@ -60,7 +61,11 @@
 			Last Score: <code id="click-box-score">0</code> completed in
 			<code id="click-box-time">0</code> seconds
 		</p>
-
+		<audio src="sounds/hit-click.ogg" preload="auto" id="hit-click"></audio>
+		<audio
+			src="sounds/miss-click.ogg"
+			preload="auto"
+			id="miss-click"></audio>
 		<script src="click-box.js" type="module"></script>
 	</body>
 </html>
